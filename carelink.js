@@ -17,7 +17,8 @@ var CARELINK_EU = false;
 var MMCONNECT_SERVERNAME = process.env['MMCONNECT_SERVERNAME'];
 var DEFAULT_CARELINKSERVERADDRESS = MMCONNECT_SERVERNAME || (CARELINK_EU ? "carelink.minimed.eu" : "carelink.minimed.com");
 
-var DEFAULT_COUNTRYCODE = process.env['MMCONNECT_COUNTRYCODE'] || 'gb';
+/* var DEFAULT_COUNTRYCODE = process.env['MMCONNECT_COUNTRYCODE'] || 'gb'; */
+var DEFAULT_COUNTRYCODE = process.env['MMCONNECT_COUNTRYCODE'] || 'us';
 var DEFAULT_LANGCODE = process.env['MMCONNECT_LANGCODE'] || 'en';
 
 
